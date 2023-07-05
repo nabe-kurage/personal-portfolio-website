@@ -1,44 +1,27 @@
-import "./App.css";
-import "./reset.css";
+import './style/App.css';
+import './style/reset.css';
+import Navigation from './components/Navigation';
+import Introduction from './components/Introduction';
+import Goal from './components/Goal';
+import Concept from './components/Concept';
+import Trajectory from './components/Trajectory';
+import Travel from './components/Travel';
+import Links from './components/Links';
+import Footer from './components/Footer';
 
 function App() {
-    return (
-        <div className="wrapper">
-            <nav className="navigation">
-                <h1>
-                    <a href="">Nabekura</a>
-                </h1>
-            </nav>
-
-            <section className="section">
-                <h2>Top</h2>
-            </section>
-
-            <section className="section">
-                <h2>Goal</h2>
-            </section>
-
-            <section className="section">
-                <h2>Concept</h2>
-            </section>
-
-            <section className="section">
-                <h2>Trajectory</h2>
-            </section>
-
-            <section className="section">
-                <h2>Travel</h2>
-            </section>
-
-            <section className="section">
-                <h2>Links</h2>
-            </section>
-
-            <footer className="footer">
-                <h2>footer</h2>
-            </footer>
-        </div>
-    );
+  return (
+    <div className="wrapper">
+      <Navigation />
+      <Introduction />
+      <Goal />
+      <Concept />
+      <Trajectory />
+      <Travel />
+      <Links />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
