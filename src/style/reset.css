@@ -50,3 +50,9 @@ a {
   color: #333;
   text-decoration: none;
 }
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}

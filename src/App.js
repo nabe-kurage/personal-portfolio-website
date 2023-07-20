@@ -1,9 +1,10 @@
 import './style/App.css';
 import './style/reset.css';
 import Navigation from './components/Navigation';
+import Mv from './components/Mv';
 import Introduction from './components/Introduction';
-import Goal from './components/Goal';
-import Concept from './components/Concept';
+import CoreValues from './components/CoreValues';
+import AboutMore from './components/AboutMore';
 import Trajectory from './components/Trajectory';
 import Travel from './components/Travel';
 import Links from './components/Links';
@@ -13,9 +14,10 @@ function App() {
   return (
     <div className="wrapper">
       <Navigation />
+      <Mv />
       <Introduction />
-      <Goal />
-      <Concept />
+      <CoreValues />
+      <AboutMore />
       <Trajectory />
       <Travel />
       <Links />
