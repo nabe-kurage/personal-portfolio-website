@@ -1,0 +1,48 @@
+.coreValueSection {
+  text-align: center;
+}
+
+.coreValueSectionTitleImage {
+  margin: auto;
+}
+
+.coreValueList {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.coreValueListItemCollab {
+  color: #970b0b;
+}
+
+.coreValueListItemGlobal {
+  color: #e85716;
+}
+
+.coreValueListItemArt {
+  color: #345B20;
+}
+
+.coreValueListItemImage {
+  margin: auto;
+}
+
+.coreValueListItemTitle {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.coreValueListItemTitleJP {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.coreValueListItemTitleText {
+  margin-top: 24px;
+  font-size: 11px;
+}

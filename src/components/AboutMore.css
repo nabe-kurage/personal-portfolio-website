@@ -1,0 +1,87 @@
+.aboutMoreArticle {
+  border: 1px solid #000;
+  border-radius: 46px;
+  width: 900px;
+  margin: 112px auto;
+
+  padding: 56px 48px 152px;
+  text-align: center;
+}
+
+.aboutMoreTitle {
+  font-size: 56px;
+  line-height: 1;
+  font-family: Silom;
+}
+
+.aboutMoreText {
+  margin-top: 48px;
+}
+
+.activitiesArea {
+  margin-top: 56px;
+  padding-top: 64px;
+  border-top: 1px solid #000;
+}
+
+.activitiesTitle {
+  font-size: 33px;
+  font-family: Silom;
+  line-height: 1;
+}
+
+.activitiesText {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.activityList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 54px;
+  margin-top: 40px;
+  padding: 0 56px;
+}
+
+.activityListItem {
+  margin-top: 32px;
+}
+
+.activityListItemCollab {
+  color: #970b0b;
+}
+
+.activityListItemGrobal {
+  color: #e85716;
+}
+
+.activityListItemArt {
+  color: #345b20;
+}
+
+.activityListItemTitle {
+  font-size: 21px;
+  font-family: Silom;
+  line-height: 1;
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+.activityListItemTitleJP {
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.StrengthsArea {
+  margin-top: 56px;
+  padding-top: 64px;
+  border-top: 1px solid #000;
+}
+
+.LikesArea {
+  margin-top: 56px;
+  padding-top: 64px;
+  border-top: 1px solid #000;
+}

@@ -1,20 +1,8 @@
 .wrapper {
-    background-color: #f5f2ef;
-    color: #333;
-}
-
-.navigation {
-    background-color: #b8d1d9;
-    height: 56px;
-    display: flex;
+  background-color: #f5f2ef;
+  color: #333;
 }
 
 .section {
-    min-height: 100vh;
-}
-
-.footer {
-    background-color: #b8d1d9;
-    height: 56px;
-    display: flex;
+  padding: 32px 0;
 }
