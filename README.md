@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 個人メモ
+
+eslint でエラーが出ていたら、/@eslint/eslintrc/package.json から"type": "module",を削除
+eslint設定削除しているので、後々設定できると良い
