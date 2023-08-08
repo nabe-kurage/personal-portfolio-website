@@ -1,0 +1,11 @@
+.footer {
+  background-color: #e85716;
+  height: 56px;
+  display: flex;
+  padding: 65px;
+}
+
+.footerInner {
+  width: 900px;
+  margin: auto;
+}

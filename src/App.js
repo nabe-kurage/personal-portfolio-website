@@ -5,9 +5,8 @@ import Mv from './components/Mv';
 import Introduction from './components/Introduction';
 import CoreValues from './components/CoreValues';
 import AboutMore from './components/AboutMore';
-import Trajectory from './components/Trajectory';
-import Travel from './components/Travel';
-import Links from './components/Links';
+// import Travel from './components/Travel';
+import Works from './components/Works';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,9 +17,8 @@ function App() {
       <Introduction />
       <CoreValues />
       <AboutMore />
-      <Trajectory />
-      <Travel />
-      <Links />
+      <Works />
+      {/* <Travel />　*/}
       <Footer />
     </div>
   );

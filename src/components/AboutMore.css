@@ -3,7 +3,7 @@
   border-radius: 46px;
   width: 900px;
   margin: 112px auto;
-  
+
   padding: 56px 48px 152px;
   text-align: center;
 }
@@ -37,8 +37,10 @@
 
 .activityList {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  column-gap: 54px;
   margin-top: 40px;
+  padding: 0 56px;
 }
 
 .activityListItem {
@@ -73,6 +75,12 @@
 }
 
 .StrengthsArea {
+  margin-top: 56px;
+  padding-top: 64px;
+  border-top: 1px solid #000;
+}
+
+.LikesArea {
   margin-top: 56px;
   padding-top: 64px;
   border-top: 1px solid #000;

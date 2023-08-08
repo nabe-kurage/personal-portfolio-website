@@ -60,11 +60,11 @@ function AboutMore() {
           </li>
         </ul>
 
-        {/* <div className="StrengthsArea">
-          <h2 className="articleSubTitle">Strengths</h2>
-          <p className="articleSubText">ストレングスファインダーによる強み</p>
+        <div className="LikesArea">
+          <h2 className="articleSubTitle">Likes</h2>
+          <p className="articleSubText">特に好きな作品</p>
           <div>...</div>
-        </div> */}
+        </div>
       </div>
     </article>
   );
