@@ -1,13 +1,19 @@
 import './CoreValues.css';
+import img_collab from '../images/img_collab.png';
+import img_global from '../images/img_gloabal.png';
+import img_art from '../images/img_art.png';
+import icon from '../images/icon_corevalues.svg';
 
 function CoreValues() {
   return (
     <section className="section coreValueSection">
-      <h1 className="coreValueSectionTitle">
+      <h1 className="sectionTitle coreValueSectionTitle">
         <img
           className="coreValueSectionTitleImage"
-          src="https://placehold.jp/56x56.png"
+          src={icon}
           alt=""
+          width="56px"
+          height="56px"
         />
         <div>Nabekura’s Core Values</div>
       </h1>
@@ -16,8 +22,10 @@ function CoreValues() {
         <li className="coreValueListItem coreValueListItemCollab">
           <img
             className="coreValueListItemImage"
-            src="https://placehold.jp/374x248.png"
-            alt=""
+            src={img_collab}
+            alt="Community&Collab"
+            width="374"
+            height="248"
           />
           <div className="coreValueListItemTitle">Community&Collab</div>
           <div className="coreValueListItemTitleJP">
@@ -35,8 +43,10 @@ function CoreValues() {
         <li className="coreValueListItem coreValueListItemGlobal">
           <img
             className="coreValueListItemImage"
-            src="https://placehold.jp/374x248.png"
-            alt=""
+            src={img_global}
+            alt="Global Culture Dive"
+            width="374"
+            height="248"
           />
           <div className="coreValueListItemTitle">Global Culture Dive</div>
           <div className="coreValueListItemTitleJP">
@@ -54,8 +64,10 @@ function CoreValues() {
         <li className="coreValueListItem coreValueListItemArt">
           <img
             className="coreValueListItemImage"
-            src="https://placehold.jp/374x248.png"
-            alt=""
+            src={img_art}
+            alt="Art & Creation"
+            width="374"
+            height="248"
           />
           <div className="coreValueListItemTitle">Art & Creation</div>
           <div className="coreValueListItemTitleJP">

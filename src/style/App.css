@@ -1,8 +1,17 @@
+@font-face {
+  src: url('../font/impact.ttf') format('impact');
+}
+
 .wrapper {
   background-color: #f5f2ef;
   color: #333;
+  font-family: 'IBM Plex Sans JP', sans-serif;
 }
 
 .section {
   padding: 32px 0;
+}
+
+.sectionTitle {
+  font-family: 'impact', cursive;
 }

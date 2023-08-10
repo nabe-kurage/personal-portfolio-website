@@ -6,7 +6,10 @@ function Navigation() {
         <a href="/">nabekura's portfolio site</a>
       </h1>
 
-      <div className="hamburger"></div>
+      <div className="hamburger">
+        <div className="hamburgerBorder"></div>
+        <div className="hamburgerBorder"></div>
+      </div>
     </nav>
   );
 }

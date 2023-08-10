@@ -17,11 +17,11 @@
 }
 
 .coreValueListItemGlobal {
-  color: #e85716;
+  color: #a55500;
 }
 
 .coreValueListItemArt {
-  color: #345B20;
+  color: #1a656a;
 }
 
 .coreValueListItemImage {
@@ -29,10 +29,11 @@
 }
 
 .coreValueListItemTitle {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1;
   font-weight: bold;
   margin-top: 24px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .coreValueListItemTitleJP {
