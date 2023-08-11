@@ -4,13 +4,15 @@ import mv from '../images/img_mv.png';
 function Mv() {
   return (
     <section className="section mvSection">
-      <h1 className="sectionTitle pageTitle">
-        <div className="pageTitleSub">
-          <span className="pageTitleSubFirstHalf">FRONT-END</span>
-          <span className="pageTitleSubLatterHalf">developer</span>
-        </div>
-        <div className="pageTitleMain">NABEKURA</div>
-      </h1>
+      <div className="sectionTitleWrapper">
+        <h1 className="sectionTitle pageTitle">
+          <div className="pageTitleSub">
+            <span className="pageTitleSubFirstHalf">FRONT-END</span>
+            <span className="pageTitleSubLatterHalf">developer</span>
+          </div>
+          <div className="pageTitleMain">NABEKURA</div>
+        </h1>
+      </div>
 
       <div className="mainImageArea">
         <img
