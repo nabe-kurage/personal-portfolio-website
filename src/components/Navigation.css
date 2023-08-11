@@ -10,7 +10,8 @@
 
 .logo {
   font-size: 21px;
-  font-family: Hiragino Kaku Gothic ProN;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000;
 }
 
 .hamburger {
@@ -19,4 +20,18 @@
   height: 48px;
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburgerBorder {
+  background: #fff;
+  width: 20px;
+  height: 2px;
+}
+
+.hamburgerBorder + .hamburgerBorder {
+  margin-top: 8px;
 }

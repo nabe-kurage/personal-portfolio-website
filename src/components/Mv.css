@@ -1,6 +1,11 @@
 .mvSection {
-  background-color: #e85716;
+  background-color: #1a656a;
   padding: 36px 0 180px;
+  margin-top: -64px; /* ヘッダー分 */
+}
+
+.pageTitleSub {
+  font-family: 'Oswald', sans-serif;
 }
 
 .pageTitle {
@@ -9,9 +14,9 @@
   align-items: flex-start;
   justify-content: center;
   line-height: 1;
-  font-family: Silom;
   width: 417px;
   margin: auto;
+  color: #000;
 }
 
 .pageTitleSubFirstHalf {
@@ -25,6 +30,7 @@
 
 .pageTitleMain {
   font-size: 76px;
+  font-family: 'impact', cursive;
 }
 
 .mainImageArea {

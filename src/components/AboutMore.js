@@ -1,4 +1,8 @@
 import './AboutMore.css';
+import img_creator from '../images/img_creator.png';
+import img_event from '../images/img_event.png';
+import img_travel from '../images/img_travel.png';
+import img_bouldering from '../images/img_bouldering.png';
 
 function AboutMore() {
   return (
@@ -12,51 +16,37 @@ function AboutMore() {
 
         <ul className="activityList">
           <li className="activityListItem activityListItemCollab">
-            <img
-              className="activityListItemImage"
-              src="https://placehold.jp/374x248.png"
-              alt=""
-            />
-
+            <img className="activityListItemImage" src={img_event} alt="" />
             <div className="activityListItemTitle">Event&Workshop</div>
-
             <div className="activityListItemTitleJP">
               様々なイベントへの参加、お手伝い
             </div>
           </li>
 
           <li className="activityListItem activityListItemArt">
-            <img
-              className="activityListItemImage"
-              src="https://placehold.jp/374x248.png"
-              alt=""
-            />
+            <img className="activityListItemImage" src={img_creator} alt="" />
             <div className="activityListItemTitle">Creator</div>
             <div className="activityListItemTitleJP">
               同人誌作成やグッズ販売会への参加
             </div>
           </li>
 
-          <li className="activityListItem activityListItemGrobal">
-            <img
-              className="activityListItemImage"
-              src="https://placehold.jp/374x248.png"
-              alt=""
-            />
-            <div className="activityListItemTitle">Travel</div>
-            <div className="activityListItemTitleJP">
-              様々なイベントへの参加、手伝い
-            </div>
-          </li>
-
           <li className="activityListItem">
             <img
               className="activityListItemImage"
-              src="https://placehold.jp/374x248.png"
+              src={img_bouldering}
               alt=""
             />
             <div className="activityListItemTitle">Bouldering</div>
             <div className="activityListItemTitleJP">週2でボルダリング</div>
+          </li>
+
+          <li className="activityListItem activityListItemGrobal">
+            <img className="activityListItemImage" src={img_travel} alt="" />
+            <div className="activityListItemTitle">Travel</div>
+            <div className="activityListItemTitleJP">
+              ヨーロッパから南米まで雑食に世界中旅しています
+            </div>
           </li>
         </ul>
 
