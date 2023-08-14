@@ -9,9 +9,11 @@
 }
 
 .section {
-  padding: 32px 0;
+  padding: 80px 0 120px;
 }
 
 .sectionTitle {
-  font-family: 'impact', cursive;
+  font-family: 'beirut', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }

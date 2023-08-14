@@ -1,0 +1,93 @@
+.profileValueSection {
+  text-align: center;
+  background: #b6433d;
+  color: #ffe2a6;
+}
+
+.profileValueSectionTitleImage {
+  margin: auto;
+  width: 32px;
+}
+
+.profileValueSectionTitleImageCorevalues {
+  margin: auto;
+  width: 32px;
+}
+
+.profileAreaTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'beirut', sans-serif;
+  line-height: 1;
+  margin-top: 8px;
+}
+
+.profileArea {
+  margin-top: 54px;
+  padding-bottom: 64px;
+}
+
+.profileWrapper {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.profileIconImageWrapper {
+  width: 108px;
+  overflow: hidden;
+}
+
+.profileIconImage {
+  width: 233px;
+  height: 233px;
+  object-fit: cover;
+}
+
+.profileInfoDl {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profileInfoDt {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profileInfoDd {
+  line-height: 2;
+}
+
+.profileValueList {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.profileValueListItemImage {
+  margin: auto;
+}
+
+.profileValueListItemTitle {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: semi-bold;
+  margin-top: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.profileValueListItemTitleJP {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.profileValueListItemTitleText {
+  margin-top: 24px;
+  font-size: 11px;
+}

@@ -8,7 +8,7 @@ function AboutMore() {
   return (
     <article className="article aboutMoreArticle">
       <h1 className="aboutMoreTitle">About more</h1>
-      <p className="aboutMoreText">もうちょっと私について付け加えると…</p>
+      <p className="aboutMoreText">趣味とか最近の興味とか</p>
 
       <div className="activitiesArea">
         <h2 className="articleSubTitle">Activities & hobbies</h2>
@@ -19,7 +19,7 @@ function AboutMore() {
             <img className="activityListItemImage" src={img_event} alt="" />
             <div className="activityListItemTitle">Event&Workshop</div>
             <div className="activityListItemTitleJP">
-              様々なイベントへの参加、お手伝い
+              イベント参加やお手伝い楽しい🏃
             </div>
           </li>
 
@@ -27,7 +27,7 @@ function AboutMore() {
             <img className="activityListItemImage" src={img_creator} alt="" />
             <div className="activityListItemTitle">Creator</div>
             <div className="activityListItemTitleJP">
-              同人誌作成やグッズ販売会への参加
+              技術同人誌書いたりグッズ作ったり📚
             </div>
           </li>
 
@@ -38,22 +38,20 @@ function AboutMore() {
               alt=""
             />
             <div className="activityListItemTitle">Bouldering</div>
-            <div className="activityListItemTitleJP">週2でボルダリング</div>
+            <div className="activityListItemTitleJP">週2でボルダリング💪</div>
           </li>
 
           <li className="activityListItem activityListItemGrobal">
             <img className="activityListItemImage" src={img_travel} alt="" />
             <div className="activityListItemTitle">Travel</div>
-            <div className="activityListItemTitleJP">
-              ヨーロッパから南米まで雑食に世界中旅しています
-            </div>
+            <div className="activityListItemTitleJP">海外旅行行きがち🌍</div>
           </li>
         </ul>
 
         <div className="LikesArea">
           <h2 className="articleSubTitle">Likes</h2>
-          <p className="articleSubText">特に好きな作品</p>
-          <div>...</div>
+          <p className="articleSubText">好きなもの、お気に入り</p>
+          <div className="LikesAreaWrapper">Coming soon.....</div>
         </div>
       </div>
     </article>
