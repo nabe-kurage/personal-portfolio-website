@@ -1,6 +1,6 @@
 .mvSection {
   background-color: #1a656a;
-  padding: 36px 0 180px;
+  padding: 100px 0 160px;
   margin-top: -64px; /* ヘッダー分 */
 }
 
@@ -11,7 +11,8 @@
 }
 
 .pageTitleSub {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'beirut', sans-serif;
+  font-size: 20px;
 }
 
 .pageTitle {
@@ -21,17 +22,7 @@
   justify-content: center;
   line-height: 1;
   width: 320px;
-  margin: auto 0 auto auto;
   color: #000;
-}
-
-.pageTitleSubFirstHalf {
-  font-size: 28px;
-}
-
-.pageTitleSubLatterHalf {
-  font-size: 22px;
-  margin-left: 8px;
 }
 
 .pageTitleMain {
@@ -41,6 +32,21 @@
 
 .mainImageArea {
   margin-top: 16px;
+  width: 600px;
+  margin: auto;
+}
+
+.mainImageWrapper {
   display: flex;
   justify-content: center;
+}
+
+.mainImageDescription {
+  color: #000;
+  font-size: 12px;
+  font-family: 'beirut', sans-serif;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 8px;
+  line-height: 1;
 }

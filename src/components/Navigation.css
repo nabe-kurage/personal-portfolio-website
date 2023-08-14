@@ -10,7 +10,7 @@
 
 .logo {
   font-size: 21px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'beirut', sans-serif;
   color: #000;
 }
 
@@ -24,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none; /* しばらくは不要のため */
 }
 
 .hamburgerBorder {
