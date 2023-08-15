@@ -6,7 +6,7 @@
   padding: 80px 48px 120px;
   text-align: center;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     width: auto;
     margin: 56px 16px 94px;
     padding: 36px 12px 56px;
@@ -19,7 +19,7 @@
   font-weight: bold;
   font-family: 'beirut', sans-serif;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 24px;
   }
 }
@@ -27,7 +27,7 @@
 .aboutMoreText {
   margin-top: 8px;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 12px;
     margin-top: 4px;
   }
@@ -38,7 +38,7 @@
   padding-top: 64px;
   border-top: 1px solid #000;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     margin-top: 36px;
     padding-top: 36px;
   }
@@ -47,13 +47,13 @@
 .articleSubTitle {
   font-family: 'Josefin Sans', sans-serif;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 20px;
   }
 }
 
 .articleSubText {
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 10px;
   }
 }
@@ -76,7 +76,7 @@
   margin-top: 40px;
   padding: 0 56px;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
     padding: 0 8px;
     column-gap: 0;
@@ -91,7 +91,7 @@
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 16px;
     margin-top: 12px;
   }
@@ -103,7 +103,7 @@
   font-size: 11px;
   font-weight: bold;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     margin-top: 4px;
   }
 }
@@ -119,7 +119,7 @@
   padding-top: 64px;
   border-top: 1px solid #000;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     margin-top: 36px;
     padding-top: 36px;
   }
@@ -130,13 +130,7 @@
   font-weight: bold;
   margin-top: 40px;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .activityList {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
