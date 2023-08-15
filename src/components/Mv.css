@@ -2,17 +2,31 @@
   background-color: #1a656a;
   padding: 100px 0 160px;
   margin-top: -64px; /* ヘッダー分 */
+
+  @media (max-width: 600px) {
+    padding: 100px 16px 64px;
+    margin-top: -50px; /* ヘッダー分 */
+    padding-top: 72px;
+  }
 }
 
 .sectionTitleWrapper {
   margin: auto;
   width: 600px;
   text-align: right;
+
+  @media (max-width: 600px) {
+    width: auto;
+  }
 }
 
 .pageTitleSub {
   font-family: 'beirut', sans-serif;
   font-size: 20px;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 .pageTitle {
@@ -28,17 +42,37 @@
 .pageTitleMain {
   font-size: 76px;
   font-family: 'impact', cursive;
+
+  @media (max-width: 600px) {
+    font-size: 60px;
+  }
 }
 
 .mainImageArea {
-  margin-top: 16px;
+  margin-top: 4px;
   width: 600px;
   margin: auto;
+
+  @media (max-width: 600px) {
+    width: auto;
+    margin: 16px 0 0 44px;
+  }
 }
 
 .mainImageWrapper {
   display: flex;
   justify-content: center;
+
+  @media (max-width: 600px) {
+    margin-left: -16px;
+  }
+}
+
+.mainImage {
+  @media (max-width: 600px) {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .mainImageDescription {

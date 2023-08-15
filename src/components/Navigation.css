@@ -6,12 +6,20 @@
   position: sticky;
   top: 0;
   z-index: 999;
+
+  @media (max-width: 600px) {
+    padding: 16px;
+  }
 }
 
 .logo {
   font-size: 21px;
   font-family: 'beirut', sans-serif;
   color: #000;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 }
 
 .hamburger {

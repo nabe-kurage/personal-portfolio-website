@@ -7,6 +7,10 @@
 .profileValueSectionTitleImage {
   margin: auto;
   width: 32px;
+
+  @media (max-width: 600px) {
+    width: 24px;
+  }
 }
 
 .profileValueSectionTitleImageCorevalues {
@@ -20,11 +24,26 @@
   font-family: 'beirut', sans-serif;
   line-height: 1;
   margin-top: 8px;
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
 }
 
 .profileArea {
   margin-top: 54px;
   padding-bottom: 64px;
+
+  @media (max-width: 600px) {
+    padding-bottom: 0;
+    margin-top: 32px;
+  }
+}
+
+.profileArea + .profileArea {
+  @media (max-width: 600px) {
+    margin-top: 60px;
+  }
 }
 
 .profileWrapper {
@@ -33,6 +52,13 @@
   margin: auto;
   justify-content: space-between;
   margin-top: 40px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    width: auto;
+    margin-top: 24px;
+    align-items: center;
+  }
 }
 
 .profileIconImageWrapper {
@@ -51,21 +77,46 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media (max-width: 600px) {
+    text-align: center;
+    margin-top: 32px;
+  }
 }
 
 .profileInfoDt {
   font-size: 20px;
   font-weight: bold;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 }
 
 .profileInfoDd {
   line-height: 2;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+    margin-top: 12px;
+  }
 }
 
 .profileValueList {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 24px;
+  }
+}
+
+.profileValueListItem + .profileValueListItem {
+  @media (max-width: 600px) {
+    margin-top: 24px;
+  }
 }
 
 .profileValueListItemImage {
@@ -78,6 +129,11 @@
   font-weight: semi-bold;
   margin-top: 24px;
   font-family: 'Josefin Sans', sans-serif;
+
+  @media (max-width: 600px) {
+    font-size: 22px;
+    margin-top: 12px;
+  }
 }
 
 .profileValueListItemTitleJP {
@@ -85,6 +141,11 @@
   line-height: 1;
   font-weight: 400;
   margin-top: 8px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+    margin-top: 4px;
+  }
 }
 
 .profileValueListItemTitleText {
