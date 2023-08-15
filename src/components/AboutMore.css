@@ -5,6 +5,12 @@
   margin: 112px auto;
   padding: 80px 48px 120px;
   text-align: center;
+
+  @media (max-width: 600px) {
+    width: auto;
+    margin: 56px 16px 94px;
+    padding: 36px 12px 56px;
+  }
 }
 
 .aboutMoreTitle {
@@ -12,20 +18,44 @@
   line-height: 1;
   font-weight: bold;
   font-family: 'beirut', sans-serif;
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
 }
 
 .aboutMoreText {
   margin-top: 8px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+    margin-top: 4px;
+  }
 }
 
 .activitiesArea {
   margin-top: 80px;
   padding-top: 64px;
   border-top: 1px solid #000;
+
+  @media (max-width: 600px) {
+    margin-top: 36px;
+    padding-top: 36px;
+  }
 }
 
 .articleSubTitle {
   font-family: 'Josefin Sans', sans-serif;
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+.articleSubText {
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
 }
 
 .activitiesTitle {
@@ -45,6 +75,13 @@
   row-gap: 32px;
   margin-top: 40px;
   padding: 0 56px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 8px;
+    column-gap: 0;
+    row-gap: 24px;
+  }
 }
 
 .activityListItemTitle {
@@ -53,6 +90,11 @@
   margin-top: 24px;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+    margin-top: 12px;
+  }
 }
 
 .activityListItemTitleJP {
@@ -60,6 +102,10 @@
   line-height: 1;
   font-size: 11px;
   font-weight: bold;
+
+  @media (max-width: 600px) {
+    margin-top: 4px;
+  }
 }
 
 .StrengthsArea {
@@ -72,10 +118,19 @@
   margin-top: 56px;
   padding-top: 64px;
   border-top: 1px solid #000;
+
+  @media (max-width: 600px) {
+    margin-top: 36px;
+    padding-top: 36px;
+  }
 }
 
 .LikesAreaWrapper {
   font-family: 'beirut', sans-serif;
   font-weight: bold;
   margin-top: 40px;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
