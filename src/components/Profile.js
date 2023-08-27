@@ -64,7 +64,7 @@ function Profile() {
             />
             <div className="profileValueListItemTitle">Community&Collab</div>
             <div className="profileValueListItemTitleJP">
-              人との繋がりと貢献を大事にしています
+              人との繋がりや貢献を大事にしています
             </div>
           </li>
 
@@ -78,7 +78,7 @@ function Profile() {
             />
             <div className="profileValueListItemTitle">Global Culture Dive</div>
             <div className="profileValueListItemTitleJP">
-              世界中に出向き、体験と交流を大事にします
+              異なる背景や価値観からなる体験と交流を追求します
             </div>
           </li>
 
@@ -92,7 +92,7 @@ function Profile() {
             />
             <div className="profileValueListItemTitle">Art & Creation</div>
             <div className="profileValueListItemTitleJP">
-              リアル、Web両方の物作りを楽しみます
+              リアル・デジタルの境界を越えて創造を楽しみます
             </div>
           </li>
         </ul>

@@ -5,7 +5,7 @@ function Introduction() {
       <h1 className="sectionTitle introductionTitle">About</h1>
 
       <p className="IntroductionText">
-        こちらはフロントエンドエンジニアなべくらのポートフォリオサイトになります。
+        こちらはフロントエンドエンジニアなべくらのポートフォリオサイトです。
         <br />
         作成した作品等をまとめてあります。
       </p>

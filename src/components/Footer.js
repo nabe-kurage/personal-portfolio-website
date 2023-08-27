@@ -12,7 +12,7 @@ function Footer() {
           >
             nabekura's portfolio site
           </a>
-          <a href="">CONTACT ME</a>
+          {/* <a href="">CONTACT ME</a> */}
         </div>
       </div>
     </footer>

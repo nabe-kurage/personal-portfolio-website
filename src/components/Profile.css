@@ -103,13 +103,16 @@
 }
 
 .profileValueList {
-  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 900px;
+  margin: 40px auto 0;
+  gap: 24px;
 
   @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 24px;
+    gap: 24px;
+    width: auto;
   }
 }
 
@@ -121,10 +124,12 @@
 
 .profileValueListItemImage {
   margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 .profileValueListItemTitle {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1;
   font-weight: semi-bold;
   margin-top: 24px;
@@ -137,8 +142,8 @@
 }
 
 .profileValueListItemTitleJP {
-  font-size: 16px;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
   margin-top: 8px;
 
